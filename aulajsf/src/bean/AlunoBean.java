@@ -1,0 +1,40 @@
+package bean;
+
+public class AlunoBean {
+    private String matricula;
+    private String nota;
+    private float media;
+    private String nome;
+    
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getMatricula() {
+		return matricula;
+	}
+	
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+
+	public String getNota() {
+		return nota;
+	} 
+	
+	public void setNota(String nota) {
+		this.nota = nota;
+	}
+
+	public float getMedia() {
+		return media;
+	}
+
+	public void setMedia(float media) {
+		this.media = media;
+	}		 
+}	
